@@ -38,11 +38,16 @@ def create_action():
 def pending_req():
   conn,c=create_connec()
   c.execute("select * from transactions where transaction_id is null")
-  res = c.fetchone()
-  if res:
-    res = dict(res)
-  else:
-    res = {}
+  res = get_fetchall_res(c.fetchall())
+  c.close()
+  return make_response(jsonify(res))
+
+@app.route('/actions_history', methods=['GET'])
+def actions_history():
+  conn,c=create_connec()
+  account_id, out_vals = '57f89267360f81f104543bd1', []
+  c.execute("select * from transactions where approver_id = '"+ account_id + "'")
+  res = get_fetchall_res(c.fetchall())
   c.close()
   return make_response(jsonify(res))
 
@@ -79,6 +84,13 @@ def create_connec():
   conn.row_factory = sqlite3.Row
   c = conn.cursor()
   return conn,c
-  
+
+def get_fetchall_res(res):
+  if res:
+    res = [dict(x) for x in list(res)]
+  else:
+    res = []
+  return res
+ 
 if __name__ == '__main__':
   app.run(host='0.0.0.0', port=80, debug=True, threaded=True)
