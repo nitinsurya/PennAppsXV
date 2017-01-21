@@ -15,6 +15,7 @@ CORS(app)
 pennhack_key = "cb3e8a83305f920c21ee1b74e7694bcf"
 acc_base_url = "http://api.reimaginebanking.com/accounts/"
 
+sqlite3.connect(":memory:", check_same_thread=False)
 conn = sqlite3.connect('trasacts.db')
 c = conn.cursor()
 
@@ -34,6 +35,13 @@ def create_action():
   c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount`) values (?,?,?,?,?,?,?,?,?)", data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'])
   conn.commit()
   return make_response(jsonify({}))
+
+@app.route('/pending_req', methods=['GET'])
+def pending_req():
+  conn,c=create_connec()
+  c.execute("select * from transactions")
+  #print(c.fetchall(),file=sys.stderr)
+  return make_response(jsonify(c.fetchall()))
 
 @app.route('/make_transaction', methods=['GET'])
 def make_transaction():
@@ -55,6 +63,11 @@ def update_action_row(action_id, co_transaction_id, payer_id):
   global c, conn
   c.execute("update transactions set transaction_id = '?' and approver_id = '?' where id = ?", co_transaction_id, payer_id, action_id)
   conn.commit()
+
+def create_connec():
+  conn = sqlite3.connect('trasacts.db')
+  c = conn.cursor()
+  return conn,c
   
 
 if __name__ == '__main__':
