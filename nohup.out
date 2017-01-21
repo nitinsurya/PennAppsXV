@@ -56,3 +56,15 @@ AssertionError: View function mapping is overwriting an existing endpoint functi
  * Restarting with stat
  * Debugger is active!
  * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "./api.py", line 44, in <module>
+    @app.route('/make_transaction', methods=['GET'])
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1080, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 64, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1051, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: make_transaction
