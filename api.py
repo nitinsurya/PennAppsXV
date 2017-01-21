@@ -12,7 +12,7 @@ import sqlite3
 app = Flask(__name__, static_url_path='')
 CORS(app)
 
-mhack_key = "cb3e8a83305f920c21ee1b74e7694bcf"
+pennhack_key = "cb3e8a83305f920c21ee1b74e7694bcf"
 acc_base_url = "http://api.reimaginebanking.com/accounts/"
 
 conn = sqlite3.connect('trasacts.db')
@@ -33,7 +33,7 @@ def make_transaction():
   account_id, out_vals = '57f89267360f81f104543bd1', []
   merchant_id = request.args.get('merchant_id')
   if merchant_id is not None:
-    url = acc_base_url + account_id + "/purchases?key=" + mhack_key
+    url = acc_base_url + account_id + "/purchases?key=" + pennhack_key
     purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": "2017-01-21", "amount": 0.01, "description": "string"}  
     json_data = requests.post(url, data = json.dumps(purchase_details), headers = {'Content-Type': 'application/json'}).json()
 

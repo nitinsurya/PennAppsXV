@@ -36,3 +36,23 @@ AssertionError: View function mapping is overwriting an existing endpoint functi
  * Restarting with stat
  * Debugger is active!
  * Debugger pin code: 254-001-966
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.194 - - [21/Jan/2017 16:00:04] "GET /sample_text HTTP/1.1" 200 -
+128.91.56.194 - - [21/Jan/2017 16:00:04] "GET /favicon.ico HTTP/1.1" 404 -
+173.252.90.97 - - [21/Jan/2017 16:03:44] "GET /sample_text HTTP/1.1" 200 -
+128.91.56.199 - - [21/Jan/2017 16:03:52] "GET /sample_text HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
