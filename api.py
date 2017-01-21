@@ -37,10 +37,14 @@ def create_action():
 @app.route('/pending_req', methods=['GET'])
 def pending_req():
   conn,c=create_connec()
-  c.execute("select * from transactions")
-  res = c.fetchall()
+  c.execute("select * from transactions where transaction_id is null")
+  res = c.fetchone()
+  if res:
+    res = dict(res)
+  else:
+    res = {}
   c.close()
-  return make_response(jsonify(c.fetchall()))
+  return make_response(jsonify(res))
 
 @app.route('/make_transaction', methods=['POST'])
 def make_transaction():
@@ -72,6 +76,7 @@ def update_action_row(action_id, co_transaction_id, payer_id):
 
 def create_connec():
   conn = sqlite3.connect('transacts.db')
+  conn.row_factory = sqlite3.Row
   c = conn.cursor()
   return conn,c
   
