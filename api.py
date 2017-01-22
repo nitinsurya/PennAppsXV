@@ -19,7 +19,7 @@ acc_base_url = "http://api.reimaginebanking.com/accounts/"
 
 @app.route('/')
 def root():
-  return make_response(jsonify({'text': 'Hello world'}))
+    return app.send_static_file('index.html')
 
 @app.route('/sample_text', methods=['GET'])
 def sample_text():
@@ -57,6 +57,7 @@ def pending_req():
   c.execute("select * from transactions where transaction_id is null")
   res = get_fetchall_res(c.fetchall())
   c.close()
+  conn.close()
   return make_response(jsonify(res))
 
 @app.route('/actions_history', methods=['GET'])
@@ -66,13 +67,14 @@ def actions_history():
   c.execute("select * from transactions where approver_id = '"+ account_id + "'")
   res = get_fetchall_res(c.fetchall())
   c.close()
+  conn.close()
   return make_response(jsonify(res))
 
 @app.route('/make_transaction', methods=['POST'])
 def make_transaction():
   global acc_base_url, pennhack_key
   account_id, out_vals = '57f89267360f81f104543bd1', []
-  data = request.get_json()
+  data = json.loads(list(request.form.keys())[0])
   merchant_id = data['merchant_id']
   action_id = data['transaction_id']
   if merchant_id is not None:

@@ -88,23 +88,17 @@
 
                     
                     document.getElementById("approve_btn"+j).onclick = function(d){
-                        xhr = new XMLHttpRequest();
-                        var post_url = "http://52.14.45.184/make_transaction";
-                        xhr.open("POST", post_url, true);
-                        xhr.setRequestHeader("Content-type", "application/json");
-                        xhr.setRequestHeader("Accept", "application/json");
-                        xhr.onreadystatechange = function () { 
-                            if (xhr.readyState == 4 && xhr.status == 200) {
-                                var json = JSON.parse(xhr.responseText);
-                                console.log(json);
-                            }
-                        }
                         var dat_json = {"merchant_id":"57f8c214360f81f104543be0","medium":"balance", "decision":1, "transaction_id":2};
                         dat_json.purchase_date = new Date().toISOString().split('T')[0];
                         dat_json.amount = result[this.val_attr-1].amount_new;
                         dat_json.description = result[this.val_attr-1].product_name;
+                        dat_json.action_id = result[this.val_attr-1].id;
                         var dat = JSON.stringify(dat_json);
-                        xhr.send(dat);
+                        $.ajax({
+                          type: "POST",
+                          url: "http://52.14.45.184/make_transaction",
+                          data: dat
+                        });
                     };
                     
                     document.getElementById("reject_btn"+j).onclick = function(d){

@@ -1964,3 +1964,695 @@ KeyError: 'purchase_data'
 128.91.56.193 - - [22/Jan/2017 12:33:41] "GET /get_balance_details HTTP/1.1" 200 -
 128.91.56.193 - - [22/Jan/2017 12:33:43] "OPTIONS /make_transaction HTTP/1.1" 200 -
 128.91.56.193 - - [22/Jan/2017 12:33:43] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "api.py", line 132, in <module>
+    app.run(host='0.0.0.0', port=80, debug=True, threaded=True)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 841, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python3.5/dist-packages/werkzeug/serving.py", line 691, in run_simple
+    s.bind((hostname, port))
+PermissionError: [Errno 13] Permission denied
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 12:39:45] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:39:46] "GET /favicon.ico HTTP/1.1" 404 -
+128.91.56.193 - - [22/Jan/2017 12:39:49] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:39:49] "GET /get_balance_details HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 12:40:55] "OPTIONS /make_transaction HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:40:55] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 85, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 12:41:38] "OPTIONS /make_transaction HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+128.91.56.193 - - [22/Jan/2017 12:41:38] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 86, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+128.91.56.193 - - [22/Jan/2017 12:43:45] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:43:45] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:44:24] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:44:24] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:44:40] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:44:40] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:44:51] "OPTIONS /make_transaction HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+128.91.56.193 - - [22/Jan/2017 12:44:51] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 86, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+128.91.56.193 - - [22/Jan/2017 12:45:20] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:45:20] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:45:41] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:45:41] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:45:42] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:45:42] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:45:52] "OPTIONS /make_transaction HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+128.91.56.193 - - [22/Jan/2017 12:45:52] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 86, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+128.91.56.193 - - [22/Jan/2017 12:46:03] "GET /make_transaction HTTP/1.1" 404 -
+128.91.56.193 - - [22/Jan/2017 12:46:04] "GET /make_transaction HTTP/1.1" 404 -
+128.91.56.193 - - [22/Jan/2017 12:46:23] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:46:23] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:46:55] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:46:55] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:47:26] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:47:26] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:47:43] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:47:43] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:47:45] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:47:45] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:48:23] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:48:23] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:49:23] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:49:23] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:49:34] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:49:34] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:49:37] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:49:37] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:49:41] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:49:41] "GET /get_balance_details HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+128.91.56.193 - - [22/Jan/2017 12:50:20] "OPTIONS /make_transaction HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+128.91.56.193 - - [22/Jan/2017 12:50:20] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 86, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "api.py", line 24, in <module>
+    @app.route('/')
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1080, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 64, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1051, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: root
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.19.26 - - [22/Jan/2017 12:54:26] "GET / HTTP/1.1" 404 -
+128.91.19.26 - - [22/Jan/2017 12:54:26] "GET /favicon.ico HTTP/1.1" 404 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 12:55:01] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:55:02] "GET /get_balance_details HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+128.91.19.26 - - [22/Jan/2017 12:55:19] "GET / HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 12:55:19] "GET /css/style.css HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 12:55:20] "GET /images/logo.png HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.19.26 - - [22/Jan/2017 12:55:20] "GET /images/logoText.png HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 12:55:21] "GET /css/style.less HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 12:55:21] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 12:55:21] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 12:55:21] "GET /images/warm.jpg HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+128.91.19.26 - - [22/Jan/2017 12:55:42] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 86, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+128.91.56.193 - - [22/Jan/2017 12:56:16] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:56:16] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 12:56:16] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 12:56:17] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 12:56:19] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 12:56:19] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 12:56:26] "OPTIONS /make_transaction HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+128.91.19.26 - - [22/Jan/2017 12:56:26] "POST /make_transaction HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 12:56:31] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 12:56:31] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:56:33] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:56:33] "GET /get_balance_details HTTP/1.1" 200 -
+66.249.83.202 - - [22/Jan/2017 12:56:52] "GET /pending_req HTTP/1.1" 200 -
+66.249.83.200 - - [22/Jan/2017 12:56:52] "GET /favicon.ico HTTP/1.1" 404 -
+128.91.19.26 - - [22/Jan/2017 12:57:09] "OPTIONS /make_transaction HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+128.91.19.26 - - [22/Jan/2017 12:57:09] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 86, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+128.91.19.26 - - [22/Jan/2017 12:57:09] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 86, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+128.91.56.193 - - [22/Jan/2017 12:58:27] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:58:27] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:58:43] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:58:43] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 13:00:41] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 13:00:41] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 13:00:55] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 13:00:55] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 13:02:22] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 13:02:22] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:02:58] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:02:58] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:02:58] "GET /favicon.ico HTTP/1.1" 404 -
+128.91.19.26 - - [22/Jan/2017 13:03:06] "GET / HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:03:06] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:03:06] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 13:03:12] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 13:03:12] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 13:03:48] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 13:03:48] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:03:52] "GET / HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:03:53] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:03:53] "GET /get_balance_details HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('{"merchant_id":"57f8c214360f81f104543be0","medium":"balance","decision":1,"transaction_id":2,"purchase_date":"2017-01-22","amount":34.99,"description":"High Sierra Loop Backpack, True Navy/Mercury"}', '')])])
+128.91.19.26 - - [22/Jan/2017 13:03:55] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 77, in make_transaction
+    merchant_id = data['merchant_id']
+TypeError: 'NoneType' object is not subscriptable
+128.91.56.193 - - [22/Jan/2017 13:05:11] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 13:05:11] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:06:28] "GET / HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:06:29] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:06:29] "GET /get_balance_details HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+128.91.19.26 - - [22/Jan/2017 13:06:34] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 86, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+128.91.19.26 - - [22/Jan/2017 13:07:01] "GET / HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:07:01] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:07:01] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:07:01] "GET / HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:07:01] "GET /css/style.css HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:07:02] "GET /images/logo.png HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:07:02] "GET /images/logoText.png HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:07:02] "GET /css/style.less HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:07:02] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:07:02] "GET /get_balance_details HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+128.91.19.26 - - [22/Jan/2017 13:07:07] "POST /make_transaction HTTP/1.1" 400 -
+128.91.19.26 - - [22/Jan/2017 13:07:42] "GET / HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:07:42] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:07:42] "GET /get_balance_details HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('{"merchant_id":"57f8c214360f81f104543be0","medium":"balance","decision":1,"transaction_id":2,"purchase_date":"2017-01-22","amount":34.99,"description":"High Sierra Loop Backpack, True Navy/Mercury"}', '')])])
+128.91.19.26 - - [22/Jan/2017 13:07:45] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 77, in make_transaction
+    merchant_id = data['merchant_id']
+TypeError: 'NoneType' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+128.91.19.26 - - [22/Jan/2017 13:09:11] "GET / HTTP/1.1" 304 -
+128.91.19.26 - - [22/Jan/2017 13:09:11] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:09:12] "GET /get_balance_details HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('{"merchant_id":"57f8c214360f81f104543be0","medium":"balance","decision":1,"transaction_id":2,"purchase_date":"2017-01-22","amount":34.99,"description":"High Sierra Loop Backpack, True Navy/Mercury"}', '')])])
+128.91.19.26 - - [22/Jan/2017 13:09:13] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 77, in make_transaction
+    merchant_id = data['merchant_id']
+TypeError: 'NoneType' object is not subscriptable
+128.91.19.26 - - [22/Jan/2017 13:09:31] "GET / HTTP/1.1" 304 -
+128.91.19.26 - - [22/Jan/2017 13:09:32] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:09:32] "GET /get_balance_details HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('{"merchant_id":"57f8c214360f81f104543be0","medium":"balance","decision":1,"transaction_id":2,"purchase_date":"2017-01-22","amount":34.99,"description":"High Sierra Loop Backpack, True Navy/Mercury"}', '')])])
+128.91.19.26 - - [22/Jan/2017 13:09:35] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 77, in make_transaction
+    merchant_id = data['merchant_id']
+TypeError: 'NoneType' object is not subscriptable
+Exception ignored in: <module 'threading' from '/usr/lib/python3.5/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/threading.py", line 1288, in _shutdown
+    t.join()
+  File "/usr/lib/python3.5/threading.py", line 1054, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.5/threading.py", line 1070, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.5/dist-packages/werkzeug/_reloader.py", line 257, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *args: sys.exit(0))
+SystemExit: 0
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.19.26 - - [22/Jan/2017 13:10:25] "GET / HTTP/1.1" 304 -
+128.91.19.26 - - [22/Jan/2017 13:10:25] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.26 - - [22/Jan/2017 13:10:26] "GET /get_balance_details HTTP/1.1" 200 -
+{'decision': 1, 'medium': 'balance', 'transaction_id': 2, 'amount': 34.99, 'merchant_id': '57f8c214360f81f104543be0', 'description': 'High Sierra Loop Backpack, True Navy/Mercury', 'purchase_date': '2017-01-22'}
+128.91.19.26 - - [22/Jan/2017 13:10:27] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 86, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+128.91.56.193 - - [22/Jan/2017 13:15:22] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 13:15:22] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 13:16:11] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 13:16:11] "GET /get_balance_details HTTP/1.1" 200 -
+52.90.33.223 - - [22/Jan/2017 13:18:24] "GET /make_transaction HTTP/1.1" 404 -
+128.91.56.193 - - [22/Jan/2017 13:21:08] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 34, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+sqlite3.OperationalError: table transactions has no column named amount_new
+128.91.56.193 - - [22/Jan/2017 13:23:13] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 34, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+sqlite3.OperationalError: table transactions has no column named amount_new
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
