@@ -28,18 +28,20 @@
                     reject_btn.className = "reject_btn";
                     
                     eva.id="request_div"+j;
-                    approve_btn.id="approve_btn"+j;
-                    reject_btn.id="reject_btn"+j;
+                    approve_btn.id = "approve_btn"+j;
+                    approve_btn.val_attr = j;
+                    reject_btn.id = "reject_btn"+j;
+                    reject_btn.val_attr = j;
                     
                     approve_btn.innerHTML = "Approve";
                     reject_btn.innerHTML = "Reject";
                     
                     document.getElementById("approve_btn"+j).onclick = function(d){
-                        console.log("Approve "+this.id[this.id.length-1]);
+                        console.log("Approve "+ this.val_attr);
                     };
                     
                     document.getElementById("reject_btn"+j).onclick = function(d){
-                        console.log("Reject "+this.id[this.id.length-1]);
+                        console.log("Reject "+ this.val_attr);
                     };
                     
                 }
