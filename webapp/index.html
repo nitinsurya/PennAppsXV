@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
-    <meta charset="UTF-8">
-    <title>title</title>
-  </head>
-  <body>
-  <script>
-  $.ajax({url: "http://52.14.45.184/pending_req", success: function(result){
-        console.log(result);
-    }});
-  </script>
-  </body>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+        <meta charset="UTF-8">
+        <title>Web app</title>
+    </head>
+    
+    <script>
+        var datum;
+        $.ajax({
+            url: "http://52.14.45.184/pending_req",
+            success: function(result){
+                datum = result;
+                for(var i=0; i<(result.length); i++){
+                    
+                    var j = (i+1).toString();
+                    
+                    var eva = document.createElement("div");
+                    var approve_btn = document.createElement("button")
+                    var reject_btn = document.createElement("button")
+                    eva.appendChild(approve_btn);
+                    eva.appendChild(reject_btn);
+                    document.body.appendChild(eva);
+                    
+                    eva.className = "request_div";
+                    approve_btn.className = "approve_btn";
+                    reject_btn.className = "reject_btn";
+                    
+                    eva.id="request_div"+j;
+                    approve_btn.id="approve_btn"+j;
+                    reject_btn.id="reject_btn"+j;
+                    
+                    approve_btn.innerHTML = "Approve";
+                    reject_btn.innerHTML = "Reject";
+                    
+                    document.getElementById("approve_btn"+j).onclick = function(d){
+                        console.log("Approve "+this.id[this.id.length-1]);
+                    };
+                    
+                    document.getElementById("reject_btn"+j).onclick = function(d){
+                        console.log("Reject "+this.id[this.id.length-1]);
+                    };
+                    
+                }
+            }
+        });
+    </script>
+    
+    <body>
+        
+    </body>
+
 </html>
