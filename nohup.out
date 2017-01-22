@@ -550,3 +550,1417 @@ SystemExit: 0
 128.91.56.193 - - [22/Jan/2017 06:09:18] "GET /pending_req HTTP/1.1" 200 -
 128.91.56.193 - - [22/Jan/2017 06:09:29] "GET /pending_req HTTP/1.1" 200 -
 128.91.56.193 - - [22/Jan/2017 06:09:33] "GET /pending_req HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 06:22:20] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:24:02] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:24:08] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:24:15] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:24:30] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:25:23] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:26:01] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:26:16] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:26:23] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:26:26] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:26:27] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:26:38] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:26:48] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:28:17] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:28:25] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:28:35] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:28:39] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:28:43] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:31:22] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:33:47] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:34:03] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 06:39:23] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:43:41] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:43:50] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:43:54] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:44:03] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+  File "./api.py", line 44
+    requester_spent = 
+                     ^
+SyntaxError: invalid syntax
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 06:49:44] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:49:49] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 06:50:15] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:50:27] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:50:32] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 06:50:47] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:50:51] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 06:51:00] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.31 - - [22/Jan/2017 06:51:05] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:51:43] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:52:08] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:52:30] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:52:47] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:52:56] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:53:05] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:53:12] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:53:21] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:53:23] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:53:31] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:53:41] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:53:45] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:53:47] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:53:51] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:53:54] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:53:57] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:54:14] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:54:25] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:55:09] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:55:37] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:55:46] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:55:51] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:56:08] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:56:19] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:56:25] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 06:56:39] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:56:43] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:57:52] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 07:05:13] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.199 - - [22/Jan/2017 07:21:00] "POST /create_action HTTP/1.1" 400 -
+128.91.19.31 - - [22/Jan/2017 07:24:39] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 09:17:15] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 09:17:19] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 09:17:31] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 09:17:31] "GET /favicon.ico HTTP/1.1" 404 -
+128.91.56.193 - - [22/Jan/2017 09:21:56] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 09:23:43] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 09:24:02] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 09:25:35] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 09:25:59] "POST /create_action HTTP/1.1" 400 -
+128.91.56.193 - - [22/Jan/2017 09:26:03] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 09:26:03] "POST /create_action HTTP/1.1" 400 -
+52.14.45.184 - - [22/Jan/2017 09:27:50] "POST /create_action HTTP/1.1" 200 -
+52.14.45.184 - - [22/Jan/2017 09:28:48] "POST /create_action HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 09:29:33] "POST /create_action HTTP/1.1" 400 -
+128.91.56.193 - - [22/Jan/2017 09:29:38] "POST /create_action HTTP/1.1" 400 -
+128.91.56.193 - - [22/Jan/2017 09:29:59] "POST /create_action HTTP/1.1" 400 -
+128.91.56.193 - - [22/Jan/2017 09:30:02] "POST /create_action HTTP/1.1" 400 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 09:30:15] "POST /create_action HTTP/1.1" 400 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 09:30:28] "POST /create_action HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 09:30:49] "POST /create_action HTTP/1.1" 400 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+<Request 'http://52.14.45.184/create_action' [POST]>
+128.91.56.193 - - [22/Jan/2017 09:31:15] "POST /create_action HTTP/1.1" 400 -
+<Request 'http://52.14.45.184/create_action' [POST]>
+128.91.56.193 - - [22/Jan/2017 09:31:21] "POST /create_action HTTP/1.1" 400 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ImmutableMultiDict([])
+128.91.56.193 - - [22/Jan/2017 09:32:47] "POST /create_action HTTP/1.1" 400 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ImmutableMultiDict([])
+128.91.56.193 - - [22/Jan/2017 09:35:41] "POST /create_action HTTP/1.1" 400 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+128.91.56.193 - - [22/Jan/2017 09:35:57] "POST /create_action HTTP/1.1" 400 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+128.91.56.193 - - [22/Jan/2017 09:45:05] "POST /create_action HTTP/1.1" 400 -
+128.91.56.193 - - [22/Jan/2017 09:46:41] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 09:46:54] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 09:47:41] "GET /pending_req HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('{"name":"Ian","mid":"57f8c214360f81f104543be0","mname":"Amazon","pid":"B01KP7LAQ0","pname":"Hell Or High Water [DVD + Digital]","img":"https:\\/\\/images-na.ssl-images-amazon.com\\/images\\/I\\/51LpbL9JEuL.jpg","date":"2017-01-22 03:08:06","amount":12.99,"pdesc":"DVD","comment":"whats up"}', '')])])
+128.91.56.193 - - [22/Jan/2017 09:51:54] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 35, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+None
+128.91.56.193 - - [22/Jan/2017 09:53:01] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 35, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+128.91.56.193 - - [22/Jan/2017 09:54:39] "POST /create_action HTTP/1.1" 400 -
+128.91.56.193 - - [22/Jan/2017 09:54:48] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 09:55:29] "POST /create_action HTTP/1.1" 400 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+128.91.56.193 - - [22/Jan/2017 09:55:56] "POST /create_action HTTP/1.1" 400 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+128.91.56.193 - - [22/Jan/2017 09:56:06] "POST /create_action HTTP/1.1" 400 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('{"name":"Ian","mid":"57f8c214360f81f104543be0","mname":"Amazon","pid":"B01KP7LAQ0","pname":"Hell Or High Water [DVD + Digital]","img":"https:\\/\\/images-na.ssl-images-amazon.com\\/images\\/I\\/51LpbL9JEuL.jpg","date":"2017-01-22 03:13:08","amount":12.99,"pdesc":"DVD","comment":"nice"}', '')])])
+128.91.56.193 - - [22/Jan/2017 09:56:56] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 35, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('{"name":"Ian","mid":"57f8c214360f81f104543be0","mname":"Amazon","pid":"B01KP7LAQ0","pname":"Hell Or High Water [DVD + Digital]","img":"https:\\/\\/images-na.ssl-images-amazon.com\\/images\\/I\\/51LpbL9JEuL.jpg","date":"2017-01-22 03:13:29","amount":12.99,"pdesc":"DVD","comment":"nice"}', '')])])
+128.91.56.193 - - [22/Jan/2017 09:57:17] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 35, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 09:57:35] "GET /pending_req HTTP/1.1" 200 -
+ImmutableMultiDict([('{"name":"Ian","mid":"57f8c214360f81f104543be0","mname":"Amazon","pid":"B01KP7LAQ0","pname":"Hell Or High Water [DVD + Digital]","img":"https:\\/\\/images-na.ssl-images-amazon.com\\/images\\/I\\/51LpbL9JEuL.jpg","date":"2017-01-22 03:13:48","amount":12.99,"pdesc":"DVD","comment":"nice"}', '')])
+128.91.56.193 - - [22/Jan/2017 09:57:36] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 35, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 09:58:27] "POST /create_action HTTP/1.1" 400 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ImmutableMultiDict([('{"name":"Ian","mid":"57f8c214360f81f104543be0","mname":"Amazon","pid":"B01KP7LAQ0","pname":"Hell Or High Water [DVD + Digital]","img":"https:\\/\\/images-na.ssl-images-amazon.com\\/images\\/I\\/51LpbL9JEuL.jpg","date":"2017-01-22 03:14:58","amount":12.99,"pdesc":"DVD","comment":"nice"}', '')])
+128.91.56.193 - - [22/Jan/2017 09:58:46] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 35, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+128.91.56.193 - - [22/Jan/2017 09:58:56] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+1
+128.91.56.193 - - [22/Jan/2017 09:59:13] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 35, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+<dict_keyiterator object at 0x7fa85d7d44f8>
+128.91.56.193 - - [22/Jan/2017 09:59:33] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 35, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 09:59:47] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 33, in create_action
+    print(request.form.keys()[0], file = sys.stderr)
+TypeError: 'dict_keyiterator' object is not subscriptable
+128.91.56.193 - - [22/Jan/2017 09:59:55] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+['{"name":"Ian","mid":"57f8c214360f81f104543be0","mname":"Amazon","pid":"B01KP7LAQ0","pname":"Hell Or High Water [DVD + Digital]","img":"https:\\/\\/images-na.ssl-images-amazon.com\\/images\\/I\\/51LpbL9JEuL.jpg","date":"2017-01-22 03:16:13","amount":12.99,"pdesc":"DVD","comment":"nice"}']
+128.91.56.193 - - [22/Jan/2017 10:00:02] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 35, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+128.91.56.193 - - [22/Jan/2017 10:02:32] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:02:42] "GET /pending_req HTTP/1.1" 200 -
+['{"data":{"name":"Ian","mid":"57f8c214360f81f104543be0","mname":"Amazon","pid":"B01KP7LAQ0","pname":"Hell Or High Water [DVD + Digital]","img":"https:\\/\\/images-na.ssl-images-amazon.com\\/images\\/I\\/51LpbL9JEuL.jpg","date":"2017-01-22 03:19:15","amount":12.99,"pdesc":"DVD","comment":"test"}}']
+128.91.56.193 - - [22/Jan/2017 10:03:04] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 35, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+{"data":{"name":"Ian","mid":"57f8c214360f81f104543be0","mname":"Amazon","pid":"B01KP7LAQ0","pname":"Hell Or High Water [DVD + Digital]","img":"https:\/\/images-na.ssl-images-amazon.com\/images\/I\/51LpbL9JEuL.jpg","date":"2017-01-22 03:19:38","amount":12.99,"pdesc":"DVD","comment":"test"}}
+128.91.56.193 - - [22/Jan/2017 10:03:26] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 35, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 10:03:50] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 33, in create_action
+    print(list(request.form.keys())[0].data, file = sys.stderr)
+AttributeError: 'str' object has no attribute 'data'
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 10:05:06] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 34, in create_action
+    print(json.loads(list(request.form.keys())), file = sys.stderr)
+  File "/usr/lib/python3.5/json/__init__.py", line 312, in loads
+    s.__class__.__name__))
+TypeError: the JSON object must be str, not 'list'
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 10:05:24] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 34, in create_action
+    print(list(request.form.keys())['data'], file = sys.stderr)
+TypeError: list indices must be integers or slices, not str
+128.91.56.193 - - [22/Jan/2017 10:05:28] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 34, in create_action
+    print(list(request.form.keys())['data'], file = sys.stderr)
+TypeError: list indices must be integers or slices, not str
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+{"data":{"name":"Ian","mid":"57f8c214360f81f104543be0","mname":"Amazon","pid":"B01KP7LAQ0","pname":"Hell Or High Water [DVD + Digital]","img":"https:\/\/images-na.ssl-images-amazon.com\/images\/I\/51LpbL9JEuL.jpg","date":"2017-01-22 03:22:03","amount":12.99,"pdesc":"DVD","comment":"test"}}
+128.91.56.193 - - [22/Jan/2017 10:05:52] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 36, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 10:06:04] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 34, in create_action
+    print(list(request.form.keys())[0]['data'], file = sys.stderr)
+TypeError: string indices must be integers
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+{'data': {'pid': 'B01KP7LAQ0', 'pname': 'Hell Or High Water [DVD + Digital]', 'date': '2017-01-22 03:22:34', 'amount': 12.99, 'pdesc': 'DVD', 'img': 'https://images-na.ssl-images-amazon.com/images/I/51LpbL9JEuL.jpg', 'name': 'Ian', 'mname': 'Amazon', 'mid': '57f8c214360f81f104543be0', 'comment': 'test'}}
+128.91.56.193 - - [22/Jan/2017 10:06:23] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 36, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+  File "./api.py", line 34
+    print(, file = sys.stderr)
+          ^
+SyntaxError: invalid syntax
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+Traceback (most recent call last):
+  File "./api.py", line 135, in <module>
+    app.run(host='0.0.0.0', port=80, debug=True, threaded=True)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 841, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python3.5/dist-packages/werkzeug/serving.py", line 691, in run_simple
+    s.bind((hostname, port))
+OSError: [Errno 98] Address already in use
+128.91.56.193 - - [22/Jan/2017 10:07:28] "GET /pending_req HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 10:07:58] "POST /create_action HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:08:11] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.2 - - [22/Jan/2017 10:08:30] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:08:40] "GET /pending_req HTTP/1.1" 200 -
+54.174.33.17 - - [22/Jan/2017 10:10:32] "GET /make_transaction HTTP/1.1" 404 -
+128.91.56.193 - - [22/Jan/2017 10:11:10] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:12:09] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 10:13:09] "POST /create_action HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:13:17] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:14:47] "POST /create_action HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:14:58] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:16:15] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:17:01] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:17:42] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:18:01] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 10:18:42] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.19.19 - - [22/Jan/2017 10:19:43] "GET /get_balance_details HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1615, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1630, in finalize_request
+    response = self.make_response(rv)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1740, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "/usr/local/lib/python3.5/dist-packages/werkzeug/wrappers.py", line 847, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "/usr/local/lib/python3.5/dist-packages/werkzeug/wrappers.py", line 57, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "/usr/local/lib/python3.5/dist-packages/werkzeug/test.py", line 871, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'dict' object is not callable
+128.91.19.19 - - [22/Jan/2017 10:19:43] "GET /get_balance_details?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+128.91.19.19 - - [22/Jan/2017 10:19:43] "GET /get_balance_details?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+128.91.19.19 - - [22/Jan/2017 10:19:43] "GET /get_balance_details?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+128.91.19.19 - - [22/Jan/2017 10:19:45] "GET /get_balance_details?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+128.91.19.19 - - [22/Jan/2017 10:19:47] "GET /get_balance_details?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.19.19 - - [22/Jan/2017 10:20:13] "GET /get_balance_details HTTP/1.1" 200 -
+54.165.241.61 - - [22/Jan/2017 10:20:28] "GET /get_balance_details HTTP/1.1" 200 -
+54.174.114.150 - - [22/Jan/2017 10:20:28] "GET /favicon.ico HTTP/1.1" 404 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('{"data":{"name":"Ian","mid":"57f8c214360f81f104543be0","mname":"Amazon","pid":"B015WCV70W","pname":"HP Pavilion 22cwa 21.5-inch IPS LED Backlit Monitor","img":"https:\\/\\/images-na.ssl-images-amazon.com\\/images\\/I\\/51CvjRu6c8L.jpg","date":"2017-01-22 03:40:10","amount":119.99,"pdesc":"Personal Computer","comment":"For my office desk"}}', '')])])
+128.91.56.193 - - [22/Jan/2017 10:23:59] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 35, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+128.91.56.193 - - [22/Jan/2017 10:24:15] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:25:05] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:25:05] "GET /favicon.ico HTTP/1.1" 404 -
+66.249.83.198 - - [22/Jan/2017 10:26:00] "GET /favicon.ico HTTP/1.1" 404 -
+128.91.56.193 - - [22/Jan/2017 10:26:05] "GET /pending_req HTTP/1.1" 200 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('{"data":{"name":"Ian","mid":"57f8c214360f81f104543be0","mname":"Amazon","pid":"B015WCV70W","pname":"HP Pavilion 22cwa 21.5-inch IPS LED Backlit Monitor","img":"https:\\/\\/images-na.ssl-images-amazon.com\\/images\\/I\\/51CvjRu6c8L.jpg","date":"2017-01-22 03:42:47","amount":119.99,"pdesc":"Personal Computer","comment":"For my office desk"}}', '')])])
+128.91.56.193 - - [22/Jan/2017 10:26:35] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 35, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+128.91.56.193 - - [22/Jan/2017 10:26:46] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:26:51] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.2 - - [22/Jan/2017 10:27:20] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:28:39] "GET /make_transaction HTTP/1.1" 404 -
+128.91.56.193 - - [22/Jan/2017 10:28:51] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:30:56] "GET /make_transaction HTTP/1.1" 404 -
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('{"data":{"name":"Ian","mid":"57f8c214360f81f104543be0","mname":"Amazon","pid":"B0170K9TNG","pname":"25","img":"https:\\/\\/images-na.ssl-images-amazon.com\\/images\\/I\\/51W-Reu77aL.jpg","date":"2017-01-22 03:49:15","amount":10.99,"pdesc":"Digital Music Album","comment":"I love adele!"}}', '')])])
+128.91.56.193 - - [22/Jan/2017 10:33:04] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 35, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 10:35:29] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 33, in create_action
+    data = json.loads(request.form.keys()[0])
+TypeError: 'dict_keyiterator' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 10:36:44] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 33, in create_action
+    print(request.form.keys()[0], file = sys.stderr)
+TypeError: 'dict_keyiterator' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 10:37:22] "POST /create_action HTTP/1.1" 500 -
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 10:39:24] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 33, in create_action
+    data = json.loads(request.form.keys()[0])
+TypeError: 'dict_keyiterator' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 10:40:15] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "./api.py", line 133, in <module>
+    app.run(host='0.0.0.0', port=80, debug=True, threaded=True)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 841, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python3.5/dist-packages/werkzeug/serving.py", line 691, in run_simple
+    s.bind((hostname, port))
+PermissionError: [Errno 13] Permission denied
+Traceback (most recent call last):
+  File "./api.py", line 132, in <module>
+    app.run(host='0.0.0.0', port=80, debug=True, threaded=True)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 841, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python3.5/dist-packages/werkzeug/serving.py", line 691, in run_simple
+    s.bind((hostname, port))
+PermissionError: [Errno 13] Permission denied
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 10:43:38] "POST /create_action HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:43:52] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+128.91.56.193 - - [22/Jan/2017 10:44:16] "GET /get_balance_details HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 10:45:31] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 10:58:14] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:02:29] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:08:57] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:10:54] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:11:37] "OPTIONS /make_transaction HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:11:37] "POST /make_transaction HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:11:52] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:12:01] "OPTIONS /make_transaction HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:12:01] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 85, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+128.91.56.193 - - [22/Jan/2017 11:12:34] "OPTIONS /make_transaction HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:12:35] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 85, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+128.91.56.193 - - [22/Jan/2017 11:18:44] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:18:49] "OPTIONS /make_transaction HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:18:49] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 85, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+128.91.56.193 - - [22/Jan/2017 11:33:48] "OPTIONS /make_transaction HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:33:48] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 85, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+128.91.56.193 - - [22/Jan/2017 11:33:55] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:33:58] "OPTIONS /make_transaction HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:33:58] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 85, in make_transaction
+    purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}
+KeyError: 'purchase_data'
+128.91.56.193 - - [22/Jan/2017 11:46:04] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:47:01] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:47:12] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:47:18] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:47:21] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:48:07] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:49:00] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:51:30] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:51:30] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:53:09] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:53:09] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:54:08] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 11:54:08] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:07:38] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:07:38] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:23:55] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:23:55] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:28:58] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:28:58] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:29:01] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:29:01] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:29:03] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:29:03] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:29:04] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:29:04] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:29:27] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:29:27] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:30:16] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:30:16] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:31:14] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:31:14] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:32:37] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:32:37] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:32:49] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:32:49] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:33:37] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:33:37] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:33:40] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:33:41] "GET /get_balance_details HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:33:43] "OPTIONS /make_transaction HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 12:33:43] "POST /make_transaction HTTP/1.1" 500 -

@@ -30,11 +30,26 @@ def create_action():
   global acc_base_url
   conn, c = create_connec()
   account_id = '57f89267360f81f104543bd1'
-  data = request.get_json()
-  c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+  data = json.loads(list(request.form.keys())[0])['data']
+  c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount_new`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
   conn.commit()
   c.close()
   return make_response(jsonify({}))
+
+@app.route('/get_balance_details', methods=['GET'])
+def get_balance_details():
+  url = "http://api.reimaginebanking.com/accounts/57f89267360f81f104543bd1?key=cb3e8a83305f920c21ee1b74e7694bcf"
+  reviewer_balance = requests.get(url).json()['balance']
+  requester_balance = 200
+  conn, c = create_connec()
+  c.execute("select sum(amount) from transactions where transaction_id is not null and transaction_id != 0;")
+  requester_spent = list(c.fetchone())[0]
+  if requester_spent:
+    requester_spent = int(requester_spent)
+  else:
+    requester_spent = 0
+  c.close()
+  return make_response(jsonify({'requester_balance': requester_balance, 'requester_spent': requester_spent, 'reviewer_balance': reviewer_balance}))
 
 @app.route('/pending_req', methods=['GET'])
 def pending_req():
@@ -67,7 +82,7 @@ def make_transaction():
       send_approval_reject_sms(0)
     else:
       url = acc_base_url + account_id + "/purchases?key=" + pennhack_key
-      purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": "2017-01-21", "amount": data['amount'], "description": "string"}  
+      purchase_details = {"merchant_id": merchant_id, "medium": "balance", "purchase_date": data['purchase_data'], "amount": data['amount'], "description": data['pdesc']}  
       json_data = requests.post(url, data = json.dumps(purchase_details), headers = {'Content-Type': 'application/json'}).json()
       co_transaction_id = json_data['objectCreated']['_id']
       send_approval_reject_sms(1)
