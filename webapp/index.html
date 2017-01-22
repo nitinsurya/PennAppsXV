@@ -4,6 +4,12 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
         <meta charset="UTF-8">
         <title>Web app</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,600" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css"/>
+        <link rel="stylesheet/less" type="text/css" href="css/style.less"/>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
     </head>
     
     <script>
@@ -12,45 +18,82 @@
             url: "http://52.14.45.184/pending_req",
             success: function(result){
                 datum = result;
+                
+                var wrap_div = document.createElement("div");
+                var listwrap_div = document.createElement("div");
+                wrap_div.appendChild(listwrap_div);
+                document.getElementById("body_id").appendChild(wrap_div);
+                wrap_div.className = "wrapper"
+                listwrap_div.className = "list-wrapper"
+                
                 for(var i=0; i<(result.length); i++){
                     
                     var j = (i+1).toString();
                     
                     var eva = document.createElement("div");
-                    var approve_btn = document.createElement("button")
-                    var reject_btn = document.createElement("button")
-                    eva.appendChild(approve_btn);
-                    eva.appendChild(reject_btn);
-                    document.body.appendChild(eva);
+                    var img = new Image();
+                    eva.appendChild(img);
+                    img.src = result[i].product_imgurl;
                     
-                    eva.className = "request_div";
-                    approve_btn.className = "approve_btn";
-                    reject_btn.className = "reject_btn";
+                    var text_cont = document.createElement("div");
+                    eva.appendChild(text_cont);
+                    var user_img = document.createElement("div");
+                    var title_div = document.createElement("div");
+                    var com = document.createElement("div");
+                    text_cont.appendChild(user_img);
+                    text_cont.appendChild(title_div);
+                    text_cont.appendChild(com);
                     
-                    eva.id="request_div"+j;
-                    approve_btn.id = "approve_btn"+j;
-                    approve_btn.val_attr = j;
-                    reject_btn.id = "reject_btn"+j;
-                    reject_btn.val_attr = j;
+                    var btn_cont = document.createElement("div");
+                    eva.appendChild(btn_cont);
+                    var price_div = document.createElement("div");
+                    var cta_div = document.createElement("div");
+                    var reject_div = document.createElement("div");
+                    btn_cont.appendChild(price_div);
+                    btn_cont.appendChild(cta_div);
+                    btn_cont.appendChild(reject_div);
+                                        
+                    listwrap_div.appendChild(eva);
                     
-                    approve_btn.innerHTML = "Approve";
-                    reject_btn.innerHTML = "Reject";
+                    eva.className = "single";
+                    img.className = "image-holder";
+                    text_cont.className = "text-container";
+                    btn_cont.className = "button-container";
+                    user_img.className = "user-image";
+                    title_div.className = "title";
+                    com.className = "comment";
+                    price_div.className = "price";
+                    cta_div.className = "cta";
+                    reject_div.className = "reject";
                     
-                    document.getElementById("approve_btn"+j).onclick = function(d){
-                        console.log("Approve "+ this.val_attr);
-                    };
+                    title_div.innerHTML = result[i].product_name;
+                    com.innerHTML = result[i].comment;
+                    price_div.innerHTML = "$"+result[i].amount_new;
+                    cta_div.innerHTML = "Approve";
+                    reject_div.innerHTML = "Reject";
                     
-                    document.getElementById("reject_btn"+j).onclick = function(d){
-                        console.log("Reject "+ this.val_attr);
-                    };
+//                    approve_btn.id = "approve_btn"+j;
+//                    approve_btn.val_attr = j;
+//                    reject_btn.id = "reject_btn"+j;
+//                    reject_btn.val_attr = j;
+//                    
+//                    approve_btn.innerHTML = "Approve";
+//                    reject_btn.innerHTML = "Reject";
+//                    
+//                    document.getElementById("approve_btn"+j).onclick = function(d){
+//                        console.log("Approve "+ this.val_attr);
+//                    };
+//                    
+//                    document.getElementById("reject_btn"+j).onclick = function(d){
+//                        console.log("Reject "+ this.val_attr);
+//                    };
                     
                 }
             }
         });
     </script>
     
-    <body>
-        
+    <body id="body_id">
     </body>
 
 </html>

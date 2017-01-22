@@ -1,0 +1,124 @@
+body{
+    
+}
+*{
+    box-sizing: border-box;
+}
+html { 
+    background: url('../images/warm.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+    &:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        background: rgba(0,0,0,0.5);
+    }
+    
+    .wrapper{
+        width: 100%;
+        float: left;
+        position: relative;
+        z-index: 10;
+        
+        
+        .list-wrapper{
+            width: 100%;
+            float: left;
+            .single{
+                width: 31%;
+                float: left;
+                margin: 1%;
+                background: #FFF;
+                border-radius: 4px;
+                overflow: hidden;
+                
+                .image-holder{
+                    height: 200px;
+                    width: 100%;
+                    float: left;
+                    object-fit: cover;
+                }
+                .text-container{
+                    width: 100%;
+                    float: left;
+                    border-left: 1px solid #EEE;
+                    border-right: 1px solid #EEE;
+                    padding: 25px;
+                    position: relative;
+                    
+                    .user-image{
+                        width: 68px;
+                        height: 68px;
+                        background: url(http://127.0.0.1:63171/images/user.jpg);
+                        position: absolute;
+                        border-radius: 50%;
+                        top: -35px;
+                        left: 25px;
+                        border: 3px solid #FFF;
+                        background-size: cover;
+                    }
+                    .title{
+                        width: 100%;
+                        float: left;
+                        font-size: 20px;
+                        font-weight: 500; 
+                        line-height: 28px;
+                        margin-top: 20px;
+                    }
+                    .comment{
+                        width: 100%;
+                        float: left;
+                        font-style: italic;
+                        font-size: 16px;
+                        font-weight: 300; 
+                        line-height: 22px;
+                        margin-top: 10px;
+                    }
+                }
+                .button-container{
+                    width: 100%;
+                    float: left;
+                    border-left: 1px solid #EEE;
+                    border-right: 1px solid #EEE;
+                    padding: 15px 25px;
+                    position: relative;
+                    background: #F7F7F7;
+                    
+                    .price{
+//                        color: #E5C100;
+                        color: #3F5185;
+                        font-size: 28px;
+                        float: left;
+                        margin-top: 10px;
+                    }
+                    .cta{
+                        float: right;
+                        background: #3F5185;
+                        padding: 15px 35px;
+                        color: #FFF;
+                        text-transform: uppercase;
+                        border-radius: 40px;
+                        cursor: pointer;
+                    }
+                    .reject{
+                        float: right;
+                        margin: 15px 35px;
+                        color: #444;
+                        text-decoration: underline;
+                        cursor: pointer;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
