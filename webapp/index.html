@@ -19,6 +19,9 @@
             url: "http://52.14.45.184/get_balance_details",
             success: function(result){
                 document.getElementById("rem_bal").innerHTML = "Remaining balance: $"+ result.reviewer_balance.toFixed(2);
+                for(var l = 0; l<document.getElementsByClassName("allowance").length; l++){
+					document.getElementsByClassName("allowance")[l].innerHTML = "Allowance: $"+ result.requester_balance.toFixed(2);
+				}
             }
         });
             
@@ -34,6 +37,7 @@
                 wrap_div.className = "wrapper"
                 listwrap_div.className = "list-wrapper"
                 
+                console.log(result);
                 for(var i=0; i<(result.length); i++){
                     
                     var j = (i+1).toString();
@@ -48,9 +52,11 @@
                     var user_img = document.createElement("div");
                     var title_div = document.createElement("div");
                     var com = document.createElement("div");
+                    var allowance = document.createElement("div");
                     text_cont.appendChild(user_img);
                     text_cont.appendChild(title_div);
                     text_cont.appendChild(com);
+                    text_cont.appendChild(allowance);
                     
                     var btn_cont = document.createElement("div");
                     eva.appendChild(btn_cont);
@@ -70,6 +76,7 @@
                     user_img.className = "user-image";
                     title_div.className = "title";
                     com.className = "comment";
+                    allowance.className = "allowance";
                     price_div.className = "price";
                     cta_div.className = "cta";
                     reject_div.className = "reject";
@@ -94,33 +101,34 @@
                         dat_json.description = result[this.val_attr-1].product_name;
                         dat_json.action_id = result[this.val_attr-1].id;
                         var dat = JSON.stringify(dat_json);
+                        console.log(dat);
                         $.ajax({
-                          type: "POST",
-                          url: "http://52.14.45.184/make_transaction",
-                          data: dat
+                            type: "POST",
+                            url: "http://52.14.45.184/make_transaction",
+                            data: dat,
+                            success: function(){
+                                location.reload();
+                            }
                         });
                     };
                     
                     document.getElementById("reject_btn"+j).onclick = function(d){
-                        xhr = new XMLHttpRequest();
-                        var post_url = "http://52.14.45.184/make_transaction";
-                        xhr.open("POST", post_url, true);
-                        xhr.setRequestHeader("Content-type", "application/json");
-                        xhr.setRequestHeader("Accept", "application/json");
-                        xhr.onreadystatechange = function () { 
-                            if (xhr.readyState == 4 && xhr.status == 200) {
-                                var json = JSON.parse(xhr.responseText);
-                                console.log(json);
-                            }
-                        }
                         var dat_json = {"merchant_id":"57f8c214360f81f104543be0","medium":"balance", "decision":0, "transaction_id":2};
                         dat_json.purchase_date = new Date().toISOString().split('T')[0];
                         dat_json.amount = result[this.val_attr-1].amount_new;
                         dat_json.description = result[this.val_attr-1].product_name;
+                        dat_json.action_id = result[this.val_attr-1].id;
                         var dat = JSON.stringify(dat_json);
-                        xhr.send(dat);
+                        console.log(dat);
+                        $.ajax({
+                            type: "POST",
+                            url: "http://52.14.45.184/make_transaction",
+                            data: dat,
+                            success: function(){
+                                location.reload();
+                            }
+                        });
                     };
-                    
                 }
             }
         });
