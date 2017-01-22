@@ -3,17 +3,25 @@
     <head>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
         <meta charset="UTF-8">
-        <title>Web app</title>
+        <title>BuyMeThis</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,600" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css"/>
         <link rel="stylesheet/less" type="text/css" href="css/style.less"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
         
         <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
     </head>
     
     <script>
         var datum;
+        $.ajax({
+            url: "http://52.14.45.184/get_balance_details",
+            success: function(result){
+                document.getElementById("rem_bal").innerHTML = "Remaining balance: $"+ result.reviewer_balance.toFixed(2);
+            }
+        });
+            
         $.ajax({
             url: "http://52.14.45.184/pending_req",
             success: function(result){
@@ -72,21 +80,52 @@
                     cta_div.innerHTML = "Approve";
                     reject_div.innerHTML = "Reject";
                     
-//                    approve_btn.id = "approve_btn"+j;
-//                    approve_btn.val_attr = j;
-//                    reject_btn.id = "reject_btn"+j;
-//                    reject_btn.val_attr = j;
-//                    
-//                    approve_btn.innerHTML = "Approve";
-//                    reject_btn.innerHTML = "Reject";
-//                    
-//                    document.getElementById("approve_btn"+j).onclick = function(d){
-//                        console.log("Approve "+ this.val_attr);
-//                    };
-//                    
-//                    document.getElementById("reject_btn"+j).onclick = function(d){
-//                        console.log("Reject "+ this.val_attr);
-//                    };
+
+                    cta_div.id = "approve_btn"+j;
+                    cta_div.val_attr = j;
+                    reject_div.id = "reject_btn"+j;
+                    reject_div.val_attr = j;
+
+                    
+                    document.getElementById("approve_btn"+j).onclick = function(d){
+                        xhr = new XMLHttpRequest();
+                        var post_url = "http://52.14.45.184/make_transaction";
+                        xhr.open("POST", post_url, true);
+                        xhr.setRequestHeader("Content-type", "application/json");
+                        xhr.setRequestHeader("Accept", "application/json");
+                        xhr.onreadystatechange = function () { 
+                            if (xhr.readyState == 4 && xhr.status == 200) {
+                                var json = JSON.parse(xhr.responseText);
+                                console.log(json);
+                            }
+                        }
+                        var dat_json = {"merchant_id":"57f8c214360f81f104543be0","medium":"balance", "decision":1, "transaction_id":2};
+                        dat_json.purchase_date = new Date().toISOString().split('T')[0];
+                        dat_json.amount = result[this.val_attr-1].amount_new;
+                        dat_json.description = result[this.val_attr-1].product_name;
+                        var dat = JSON.stringify(dat_json);
+                        xhr.send(dat);
+                    };
+                    
+                    document.getElementById("reject_btn"+j).onclick = function(d){
+                        xhr = new XMLHttpRequest();
+                        var post_url = "http://52.14.45.184/make_transaction";
+                        xhr.open("POST", post_url, true);
+                        xhr.setRequestHeader("Content-type", "application/json");
+                        xhr.setRequestHeader("Accept", "application/json");
+                        xhr.onreadystatechange = function () { 
+                            if (xhr.readyState == 4 && xhr.status == 200) {
+                                var json = JSON.parse(xhr.responseText);
+                                console.log(json);
+                            }
+                        }
+                        var dat_json = {"merchant_id":"57f8c214360f81f104543be0","medium":"balance", "decision":0, "transaction_id":2};
+                        dat_json.purchase_date = new Date().toISOString().split('T')[0];
+                        dat_json.amount = result[this.val_attr-1].amount_new;
+                        dat_json.description = result[this.val_attr-1].product_name;
+                        var dat = JSON.stringify(dat_json);
+                        xhr.send(dat);
+                    };
                     
                 }
             }
@@ -94,6 +133,17 @@
     </script>
     
     <body id="body_id">
+        <div id="stickynavbar">
+            <ul>
+            <li id="home">
+                <a title="Home" href="#">
+                    <img class="logo" src="images/logo.png"/>
+                    <img class="logoText" src="images/logoText.png"/>
+                </a>
+            </li>
+            <li id="rem_bal">Remaining Balance</li>
+            </ul>
+        </div>
     </body>
 
 </html>
