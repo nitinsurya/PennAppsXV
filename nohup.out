@@ -140,3 +140,413 @@ AssertionError: View function mapping is overwriting an existing endpoint functi
     else:
        ^
 IndentationError: expected an indented block
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+588446e91756fc834d8eeede
+52.14.45.184 - - [22/Jan/2017 05:59:54] "POST /make_transaction HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 06:00:05] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.31 - - [22/Jan/2017 06:00:06] "POST /create_action HTTP/1.1" 400 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+52.14.45.184 - - [22/Jan/2017 06:00:23] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 73, in make_transaction
+    update_action_row(action_id, co_transaction_id, account_id)
+  File "/home/ubuntu/PennAppsXV/api.py", line 81, in update_action_row
+    c.execute("update transactions set transaction_id = '?' and approver_id = '?' where id = ?", [co_transaction_id, payer_id, action_id])
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 1, and there are 3 supplied.
+128.91.19.31 - - [22/Jan/2017 06:00:50] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 34, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+52.14.45.184 - - [22/Jan/2017 06:01:24] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 73, in make_transaction
+    update_action_row(action_id, co_transaction_id, account_id)
+  File "/home/ubuntu/PennAppsXV/api.py", line 81, in update_action_row
+    c.execute("update transactions set transaction_id = '?' and approver_id = '?' where id = ?", co_transaction_id, payer_id, action_id)
+TypeError: function takes at most 2 arguments (4 given)
+128.91.56.193 - - [22/Jan/2017 06:01:40] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.19.31 - - [22/Jan/2017 06:03:06] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 34, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+TypeError: 'NoneType' object is not subscriptable
+52.14.45.184 - - [22/Jan/2017 06:03:50] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 73, in make_transaction
+    update_action_row(action_id, co_transaction_id, account_id)
+  File "/home/ubuntu/PennAppsXV/api.py", line 81, in update_action_row
+    c.execute("update transactions set transaction_id = '?',  approver_id = '?' where id = ?", [co_transaction_id, payer_id, action_id])
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 1, and there are 3 supplied.
+128.91.56.193 - - [22/Jan/2017 06:04:20] "GET /pending_req HTTP/1.1" 200 -
+128.91.19.31 - - [22/Jan/2017 06:05:03] "POST /create_action HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 34, in create_action
+    c.execute("insert into transactions(`name`, `product_id`, `product_name`, `product_imgurl`, `merchant_id`, `merchant_name`, `date_time`, `product_desc`, `amount`, `comment`) values (?,?,?,?,?,?,?,?,?,?)", [data['name'], data['pid'], data['pname'], data['img'], data['mid'], data['mname'], data['date'], data['pdesc'], data['amount'], data['comment']])
+KeyError: 'comment'
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+2 588448241756fc834d8eeee6 57f89267360f81f104543bd1
+52.14.45.184 - - [22/Jan/2017 06:05:08] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 73, in make_transaction
+    update_action_row(action_id, co_transaction_id, account_id)
+  File "/home/ubuntu/PennAppsXV/api.py", line 82, in update_action_row
+    c.execute("update transactions set transaction_id = '?',  approver_id = '?' where id = ?", [co_transaction_id, payer_id, action_id])
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 1, and there are 3 supplied.
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+2 5884484f1756fc834d8eeee8 57f89267360f81f104543bd1
+52.14.45.184 - - [22/Jan/2017 06:05:51] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 73, in make_transaction
+    update_action_row(action_id, co_transaction_id, account_id)
+  File "/home/ubuntu/PennAppsXV/api.py", line 82, in update_action_row
+    c.execute("update transactions set transaction_id = '?',  approver_id = '?' where id = ?", co_transaction_id, payer_id, action_id)
+TypeError: function takes at most 2 arguments (4 given)
+128.91.19.31 - - [22/Jan/2017 06:05:54] "POST /create_action HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:06:40] "GET /pending_req HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/PennAppsXV/api.py', reloading
+2 588448b21756fc834d8ef2e0 57f89267360f81f104543bd1
+52.14.45.184 - - [22/Jan/2017 06:07:31] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 73, in make_transaction
+    update_action_row(action_id, co_transaction_id, account_id)
+  File "/home/ubuntu/PennAppsXV/api.py", line 82, in update_action_row
+    c.execute("update transactions set transaction_id = '{a}',  approver_id = '{b}' where id = {c}".format(a=co_transaction_id, b=payer_id, c=action_id))
+TypeError: function takes at most 2 arguments (4 given)
+128.91.56.193 - - [22/Jan/2017 06:07:54] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:07:56] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:08:00] "GET /pending_req HTTP/1.1" 200 -
+2 588448de1756fc834d8ef2e3 57f89267360f81f104543bd1
+52.14.45.184 - - [22/Jan/2017 06:08:14] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 73, in make_transaction
+    update_action_row(action_id, co_transaction_id, account_id)
+  File "/home/ubuntu/PennAppsXV/api.py", line 82, in update_action_row
+    #c.execute("update transactions set transaction_id = '{a}',  approver_id = '{b}' where id = {c}".format(a=co_transaction_id, b=payer_id, c=action_id))
+TypeError: function takes at most 2 arguments (4 given)
+2 588448eb1756fc834d8ef2e4 57f89267360f81f104543bd1
+52.14.45.184 - - [22/Jan/2017 06:08:28] "POST /make_transaction HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/PennAppsXV/api.py", line 73, in make_transaction
+    update_action_row(action_id, co_transaction_id, account_id)
+  File "/home/ubuntu/PennAppsXV/api.py", line 82, in update_action_row
+    #c.execute("update transactions set transaction_id = '{a}',  approver_id = '{b}' where id = {c}".format(a=co_transaction_id, b=payer_id, c=action_id))
+TypeError: function takes at most 2 arguments (4 given)
+128.91.56.193 - - [22/Jan/2017 06:08:57] "GET /pending_req HTTP/1.1" 200 -
+Exception ignored in: <module 'threading' from '/usr/lib/python3.5/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/threading.py", line 1288, in _shutdown
+    t.join()
+  File "/usr/lib/python3.5/threading.py", line 1054, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.5/threading.py", line 1070, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.5/dist-packages/werkzeug/_reloader.py", line 257, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *args: sys.exit(0))
+SystemExit: 0
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 254-001-966
+128.91.56.193 - - [22/Jan/2017 06:09:18] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:09:29] "GET /pending_req HTTP/1.1" 200 -
+128.91.56.193 - - [22/Jan/2017 06:09:33] "GET /pending_req HTTP/1.1" 200 -
